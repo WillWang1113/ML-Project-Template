@@ -2,25 +2,9 @@
 Python template for machine learning
 
 ## Usage
-Before cloning this template, first build a new repo in your GitHub.
+Before you begin a new ML project, create a repo from this template.
 
-1. Clone the bare repo:
-```
-git clone --bare https://github.com/WillWang1113/ML-Project-Template.git
-```
-
-2. Push this template repo to your new repo
-```
-cd ML-Project-Template.git
-git push --mirror https://github.com/EXAMPLE-USER/NEW-REPOSITORY.git
-```
-
-3. Delete the bare repo and clone your own repo
-```
-cd ..
-rm -rf ML-Project-Template.git
-git clone https://github.com/EXAMPLE-USER/NEW-REPOSITORY.git
-```
+Hit the button **Use this template** on the webpage to create a repo.
 
 ## Stuctrue
 ```
@@ -40,3 +24,6 @@ git clone https://github.com/EXAMPLE-USER/NEW-REPOSITORY.git
 │   └── __init__.py
 └── tests
 ```
+
+## TODO
+- [ ] training, model
